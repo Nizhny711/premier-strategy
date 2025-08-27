@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Simulate form submission
+    // simulate form submission
     toast({
       title: "Message Sent!",
       description: "Thank you for your inquiry. We'll get back to you within 24 hours.",
@@ -123,7 +123,7 @@ const Contact = () => {
                 </p>
               </CardHeader>
               <CardContent className="p-0">
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form id="contact-form" onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="name">Full Name</Label>
@@ -199,7 +199,15 @@ const Contact = () => {
               <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
                 Schedule a free consultation to discuss how we can help achieve your strategic objectives.
               </p>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-white">
+              <Button
+                variant="outline"
+                size="lg"
+                className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-white"
+                onClick={() => {
+                  // Scroll to the contact form
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 Schedule Free Consultation
               </Button>
             </CardContent>

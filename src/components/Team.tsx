@@ -2,6 +2,12 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Users, Mail, Linkedin } from 'lucide-react';
+import felixPhoto from '@/assets/team/felix.jpg';
+import eliudPhoto from '@/assets/team/eliud.jpg';
+import bonifacePhoto from '@/assets/team/boniface.jpg';
+import josephPhoto from '@/assets/team/joseph.jpg';
+import nixonPhoto from '@/assets/team/nixon.jpg';
+import mercylinePhoto from '@/assets/team/mercyline.jpg';
 
 const Team = () => {
   const teamMembers = [
@@ -13,8 +19,7 @@ const Team = () => {
       bio: "Provides strategic leadership for the firm, steering its vision, mission, and growth. Oversees all operations, ensures service excellence, and drives partnerships that align with client needs and industry trends.",
       email: "felix@premierstrategicconsultants.com",
       linkedin: "#",
-      // Replace this URL with Sarah's actual photo
-      photo: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop&crop=face"
+      photo: felixPhoto
     },
     {
       name: "Eliud Luutsa",
@@ -24,19 +29,17 @@ const Team = () => {
       bio: "Leads the planning, execution, and monitoring of projects to ensure they meet timelines, budgets, and quality standards. Coordinates operational processes to maintain efficiency across the consultancy’s portfolio",
       email: "eliud@premierstrategicconsultants.com",
       linkedin: "#",
-      // Replace this URL with Michael's actual photo
-      photo: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=400&fit=crop&crop=face"
+      photo: eliudPhoto
     },
     {
-      name: "Boniface Odena ",
+      name: "Boniface Odena",
       role: "Personal Assistant to the MD & CEO",
       specialization: "Executive coordination, scheduling, and communication management.",
       initials: "BO",
       bio: "Provides executive-level administrative support, manages schedules, coordinates communications, and ensures smooth day-to-day operations for the leadership office.",
       email: "boniface@premierstrategicconsultants.com",
       linkedin: "#",
-      // Replace this URL with Grace's actual photo
-      photo: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=400&fit=crop&crop=face"
+      photo: bonifacePhoto
     },
     {
       name: "Joseph Okello",
@@ -46,8 +49,7 @@ const Team = () => {
       bio: "Supports the research team by gathering, analyzing, and synthesizing data to inform client strategies and reports. Contributes to drafting research briefs and monitoring sector-specific developments.",
       email: "joseph@premierstrategicconsultants.com",
       linkedin: "#",
-      // Replace this URL with David's actual photo
-      photo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=400&fit=crop&crop=face"
+      photo: josephPhoto
     },
     {
       name: "Nixon Barasa",
@@ -56,9 +58,8 @@ const Team = () => {
       initials: "NB",
       bio: "Assists in implementing digital tools and solutions that enhance project delivery and operational workflows. Supports the integration of technology into consultancy processes.",
       email: "nixon@premierstrategicconsultants.com",
-      linkedin: "#",
-      // Replace this URL with Amina's actual photo
-      photo: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=400&fit=crop&crop=face"
+      linkedin: "www.linkedin.com/in/nixon-barasa-ba919a265",
+      photo: nixonPhoto
     },
     {
       name: "Mercyline Luutsa",
@@ -68,8 +69,7 @@ const Team = () => {
       bio: "Offers administrative support to project teams, handling documentation, logistics, and project tracking to ensure smooth execution of tasks.",
       email: "mercyline@premierstrategicconsultants.com",
       linkedin: "#",
-      // Replace this URL with Peter's actual photo
-      photo: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=400&fit=crop&crop=face"
+      photo: mercylinePhoto
     }
   ];
 

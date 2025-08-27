@@ -217,7 +217,14 @@ const Services = () => {
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
                 Let's discuss how our expertise can drive your strategic objectives forward.
               </p>
-              <Button variant="accent" size="lg" className="text-lg px-8 py-4">
+              <Button
+                variant="accent"
+                size="lg"
+                className="text-lg px-8 py-4"
+                onClick={() => {
+                  document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 Schedule a Consultation
                 <ArrowRight className="ml-2" size={20} />
               </Button>
