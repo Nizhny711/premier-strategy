@@ -18,7 +18,7 @@ const Team = () => {
       initials: "FL",
       bio: "Provides strategic leadership for the firm, steering its vision, mission, and growth. Oversees all operations, ensures service excellence, and drives partnerships that align with client needs and industry trends.",
       email: "felix@premierstrategicconsultants.com",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/felix-edwine-luutsa",
       photo: felixPhoto
     },
     {
@@ -28,7 +28,7 @@ const Team = () => {
       initials: "EL",
       bio: "Leads the planning, execution, and monitoring of projects to ensure they meet timelines, budgets, and quality standards. Coordinates operational processes to maintain efficiency across the consultancy’s portfolio",
       email: "eliud@premierstrategicconsultants.com",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/eliud-luutsa",
       photo: eliudPhoto
     },
     {
@@ -38,7 +38,7 @@ const Team = () => {
       initials: "BO",
       bio: "Provides executive-level administrative support, manages schedules, coordinates communications, and ensures smooth day-to-day operations for the leadership office.",
       email: "boniface@premierstrategicconsultants.com",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/boniface-odena",
       photo: bonifacePhoto
     },
     {
@@ -48,7 +48,7 @@ const Team = () => {
       initials: "JO",
       bio: "Supports the research team by gathering, analyzing, and synthesizing data to inform client strategies and reports. Contributes to drafting research briefs and monitoring sector-specific developments.",
       email: "joseph@premierstrategicconsultants.com",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/joseph-okello-059535332",
       photo: josephPhoto
     },
     {
@@ -58,7 +58,7 @@ const Team = () => {
       initials: "NB",
       bio: "Assists in implementing digital tools and solutions that enhance project delivery and operational workflows. Supports the integration of technology into consultancy processes.",
       email: "nixon@premierstrategicconsultants.com",
-      linkedin: "www.linkedin.com/in/nixon-barasa-ba919a265",
+      linkedin: "https://www.linkedin.com/in/nixon-barasa-ba919a265",
       photo: nixonPhoto
     },
     {
@@ -68,7 +68,7 @@ const Team = () => {
       initials: "ML",
       bio: "Offers administrative support to project teams, handling documentation, logistics, and project tracking to ensure smooth execution of tasks.",
       email: "mercyline@premierstrategicconsultants.com",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/mercyline-luutsa-34508b377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       photo: mercylinePhoto
     }
   ];
@@ -130,6 +130,8 @@ const Team = () => {
                   </a>
                   <a 
                     href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center text-muted-foreground hover:text-accent transition-colors duration-200"
                     title="LinkedIn Profile"
                   >
